@@ -7,14 +7,17 @@
 
   <body>
     <!-- simply iniatialize it with class name "cloudimage-360", server folder path, file name and amount of images -->
-    <div
+    <div style="width: 500px;text-align: center;margin: 0 auto;">
+      <div style="margin-bottom: 200px;"
+      
       class="cloudimage-360"
-      data-folder="./"
-      data-filename="iris_{index}.jpg"
+      data-folder="./Products/bag/"
+      data-filename="bag_{index}.png"
       data-amount="20"
       data-magnifier="3"
       data-spin-reverse
     ></div>
+  
     <div
       class="cloudimage-360"
       data-folder="https://scaleflex.ultrafast.io/https://scaleflex.airstore.io/demo/chair-360-36/"
@@ -23,6 +26,7 @@
       data-magnifier="3"
       data-full-screen
     ></div>
+    </div>
     <!-- Add script tag with CDN link to js-cloudimage-360-view lib after all content in body tag -->
     <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2/js-cloudimage-360-view.min.js"></script>
   </body>
